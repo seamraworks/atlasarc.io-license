@@ -1,0 +1,35 @@
+NOTICE
+======
+
+AtlasArc
+Copyright (c) 2026 Seamra Works. All rights reserved.
+
+This product includes the following open-source software:
+
+-------------------------------------------------------------------------------
+Cytoscape.js
+https://js.cytoscape.org
+Copyright (c) The Cytoscape Consortium
+Licence: MIT (https://opensource.org/licenses/MIT)
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+elkjs
+https://github.com/kieler/elkjs
+Copyright (c) 2019 TypeFox and others
+Licence: Eclipse Public License 2.0 (https://www.eclipse.org/legal/epl-2.0/)
+
+  This Source Code may also be made available under the following Secondary
+  Licence when the conditions for such availability set forth in the Eclipse
+  Public Licence, v. 2.0 are satisfied: GNU General Public License, version 2
+  with the GNU Classpath Exception, which is available at
+  https://www.gnu.org/software/classpath/license.html.
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+cytoscape-elk
+https://github.com/cytoscape/cytoscape.js-elk
+Copyright (c) 2019 The Cytoscape Consortium
+Licence: MIT (https://opensource.org/licenses/MIT)
+-------------------------------------------------------------------------------
+
