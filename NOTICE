@@ -1,35 +1,216 @@
-NOTICE
-======
+OPEN-SOURCE AND THIRD-PARTY NOTICES
+===================================
 
-AtlasArc
+AtlasArc 1.0.0
 Copyright (c) 2026 Seamra Works. All rights reserved.
 
-This product includes the following open-source software:
+This distribution includes the components listed below. Complete license and
+attribution payloads are included under third-party/. The machine-readable
+CycloneDX SBOM is included at sbom/AtlasArc-1.0.0.cdx.json.
 
--------------------------------------------------------------------------------
-Cytoscape.js
-https://js.cytoscape.org
-Copyright (c) The Cytoscape Consortium
-Licence: MIT (https://opensource.org/licenses/MIT)
--------------------------------------------------------------------------------
+AtlasArc open-source runtime
+----------------------------
 
--------------------------------------------------------------------------------
-elkjs
-https://github.com/kieler/elkjs
-Copyright (c) 2019 TypeFox and others
-Licence: Eclipse Public License 2.0 (https://www.eclipse.org/legal/epl-2.0/)
+AtlasArc governance core 1.4.0
+  Identity: pkg:maven/io.atlasarc/atlasarc-governance-core@1.4.0
+  License: Apache-2.0
+  Attribution: Copyright (c) 2026 Seamra Works
+  Project: https://github.com/seamraworks/atlasarc-ci
+  Included files: third-party/licenses/Apache-2.0.txt
 
-  This Source Code may also be made available under the following Secondary
-  Licence when the conditions for such availability set forth in the Eclipse
-  Public Licence, v. 2.0 are satisfied: GNU General Public License, version 2
-  with the GNU Classpath Exception, which is available at
-  https://www.gnu.org/software/classpath/license.html.
--------------------------------------------------------------------------------
+JVM runtime
+-----------
 
--------------------------------------------------------------------------------
-cytoscape-elk
-https://github.com/cytoscape/cytoscape.js-elk
-Copyright (c) 2019 The Cytoscape Consortium
-Licence: MIT (https://opensource.org/licenses/MIT)
--------------------------------------------------------------------------------
+ArchUnit (including shaded ASM) 1.4.2
+  Identity: pkg:maven/com.tngtech.archunit/archunit@1.4.2
+  License: Apache-2.0 and BSD-3-Clause (shaded ASM)
+  Attribution: Copyright TNG Technology Consulting GmbH; shaded ASM copyright INRIA, France Telecom and contributors
+  Project: https://www.archunit.org
+  Included files: third-party/licenses/Apache-2.0.txt, third-party/licenses/ASM-BSD-3-Clause.txt
 
+JetBrains Java Annotations 13.0
+  Identity: pkg:maven/org.jetbrains/annotations@13.0
+  License: Apache-2.0
+  Attribution: Copyright JetBrains s.r.o. and contributors
+  Project: https://github.com/JetBrains/java-annotations
+  Included files: third-party/licenses/Apache-2.0.txt
+
+Kotlin standard library 2.2.0
+  Identity: pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.2.0
+  License: Apache-2.0
+  Attribution: Copyright JetBrains s.r.o. and contributors
+  Project: https://kotlinlang.org
+  Included files: third-party/licenses/Apache-2.0.txt
+
+kotlinx.serialization core 1.7.3
+  Identity: pkg:maven/org.jetbrains.kotlinx/kotlinx-serialization-core-jvm@1.7.3
+  License: Apache-2.0
+  Attribution: Copyright JetBrains s.r.o. and contributors
+  Project: https://github.com/Kotlin/kotlinx.serialization
+  Included files: third-party/licenses/Apache-2.0.txt
+
+kotlinx.serialization JSON 1.7.3
+  Identity: pkg:maven/org.jetbrains.kotlinx/kotlinx-serialization-json-jvm@1.7.3
+  License: Apache-2.0
+  Attribution: Copyright JetBrains s.r.o. and contributors
+  Project: https://github.com/Kotlin/kotlinx.serialization
+  Included files: third-party/licenses/Apache-2.0.txt
+
+SLF4J API 2.0.17
+  Identity: pkg:maven/org.slf4j/slf4j-api@2.0.17
+  License: MIT
+  Attribution: Copyright (c) 2004-2022 QOS.ch Sarl (Switzerland)
+  Project: https://www.slf4j.org
+  Included files: third-party/licenses/SLF4J-MIT.txt
+
+Frontend bundle — D3
+--------------------
+
+d3-color 3.1.0
+  Identity: pkg:npm/d3-color@3.1.0
+  License: ISC
+  Attribution: Copyright 2010-2022 Mike Bostock
+  Project: https://d3js.org/d3-color/
+  Included files: third-party/licenses/D3-ISC-2010-2022.txt
+
+d3-dispatch 3.0.1
+  Identity: pkg:npm/d3-dispatch@3.0.1
+  License: ISC
+  Attribution: Copyright 2010-2021 Mike Bostock
+  Project: https://d3js.org/d3-dispatch/
+  Included files: third-party/licenses/D3-ISC-2010-2021.txt
+
+d3-drag 3.0.0
+  Identity: pkg:npm/d3-drag@3.0.0
+  License: ISC
+  Attribution: Copyright 2010-2021 Mike Bostock
+  Project: https://d3js.org/d3-drag/
+  Included files: third-party/licenses/D3-ISC-2010-2021.txt
+
+d3-ease 3.0.1
+  Identity: pkg:npm/d3-ease@3.0.1
+  License: BSD-3-Clause
+  Attribution: Copyright Mike Bostock and Robert Penner
+  Project: https://d3js.org/d3-ease/
+  Included files: third-party/licenses/D3-Ease-BSD-3-Clause.txt
+
+d3-hierarchy 3.1.2
+  Identity: pkg:npm/d3-hierarchy@3.1.2
+  License: ISC
+  Attribution: Copyright 2010-2021 Mike Bostock
+  Project: https://d3js.org/d3-hierarchy/
+  Included files: third-party/licenses/D3-ISC-2010-2021.txt
+
+d3-interpolate 3.0.1
+  Identity: pkg:npm/d3-interpolate@3.0.1
+  License: ISC
+  Attribution: Copyright 2010-2021 Mike Bostock
+  Project: https://d3js.org/d3-interpolate/
+  Included files: third-party/licenses/D3-ISC-2010-2021.txt
+
+d3-path 3.1.0
+  Identity: pkg:npm/d3-path@3.1.0
+  License: ISC
+  Attribution: Copyright 2015-2022 Mike Bostock
+  Project: https://d3js.org/d3-path/
+  Included files: third-party/licenses/D3-Path-ISC.txt
+
+d3-selection 3.0.0
+  Identity: pkg:npm/d3-selection@3.0.0
+  License: ISC
+  Attribution: Copyright 2010-2021 Mike Bostock
+  Project: https://d3js.org/d3-selection/
+  Included files: third-party/licenses/D3-ISC-2010-2021.txt
+
+d3-shape 3.2.0
+  Identity: pkg:npm/d3-shape@3.2.0
+  License: ISC
+  Attribution: Copyright 2010-2022 Mike Bostock
+  Project: https://d3js.org/d3-shape/
+  Included files: third-party/licenses/D3-ISC-2010-2022.txt
+
+d3-timer 3.0.1
+  Identity: pkg:npm/d3-timer@3.0.1
+  License: ISC
+  Attribution: Copyright 2010-2021 Mike Bostock
+  Project: https://d3js.org/d3-timer/
+  Included files: third-party/licenses/D3-ISC-2010-2021.txt
+
+d3-transition 3.0.1
+  Identity: pkg:npm/d3-transition@3.0.1
+  License: ISC
+  Attribution: Copyright 2010-2021 Mike Bostock
+  Project: https://d3js.org/d3-transition/
+  Included files: third-party/licenses/D3-ISC-2010-2021.txt
+
+d3-zoom 3.0.0
+  Identity: pkg:npm/d3-zoom@3.0.0
+  License: ISC
+  Attribution: Copyright 2010-2021 Mike Bostock
+  Project: https://d3js.org/d3-zoom/
+  Included files: third-party/licenses/D3-ISC-2010-2021.txt
+
+Frontend bundle — layout and export
+-----------------------------------
+
+elkjs 0.8.2
+  Identity: pkg:npm/elkjs@0.8.2
+  License: EPL-2.0
+  Attribution: Copyright 2019 TypeFox and others
+  Project: https://github.com/kieler/elkjs
+  Included files: third-party/licenses/elkjs-EPL-2.0.md
+
+html-to-image 1.11.13
+  Identity: pkg:npm/html-to-image@1.11.13
+  License: MIT
+  Attribution: Copyright (c) 2017-2025 W.Y.
+  Project: https://github.com/bubkoo/html-to-image
+  Included files: third-party/licenses/html-to-image-MIT.txt
+
+Frontend bundle — Lit
+---------------------
+
+@lit/reactive-element 2.1.2
+  Identity: pkg:npm/%40lit/reactive-element@2.1.2
+  License: BSD-3-Clause
+  Attribution: Copyright (c) 2017 Google LLC
+  Project: https://lit.dev
+  Included files: third-party/licenses/Lit-BSD-3-Clause.txt
+
+lit 3.3.3
+  Identity: pkg:npm/lit@3.3.3
+  License: BSD-3-Clause
+  Attribution: Copyright (c) 2017 Google LLC
+  Project: https://lit.dev
+  Included files: third-party/licenses/Lit-BSD-3-Clause.txt
+
+lit-element 4.2.2
+  Identity: pkg:npm/lit-element@4.2.2
+  License: BSD-3-Clause
+  Attribution: Copyright (c) 2017 Google LLC
+  Project: https://lit.dev
+  Included files: third-party/licenses/Lit-BSD-3-Clause.txt
+
+lit-html 3.3.3
+  Identity: pkg:npm/lit-html@3.3.3
+  License: BSD-3-Clause
+  Attribution: Copyright (c) 2017 Google LLC and contributors
+  Project: https://lit.dev
+  Included files: third-party/licenses/Lit-HTML-BSD-3-Clause.txt
+
+Adapted source
+--------------
+
+detekt complexity algorithms (adapted source) upstream 5afa793
+  Identity: pkg:github/detekt/detekt@5afa793bc4f24779b50738b5aeb60974e00d3cdf
+  License: Apache-2.0
+  Attribution: Adapted from detekt; modifications documented in the included notice
+  Project: https://github.com/detekt/detekt
+  Included files: third-party/licenses/Apache-2.0.txt, third-party/notices/detekt-adaptation.md
+
+PMD complexity algorithms (adapted source) upstream d1bbf1c
+  Identity: pkg:github/pmd/pmd@d1bbf1c5b6c6ca921e84def795193179bb062edf
+  License: PMD BSD-style License
+  Attribution: Copyright (c) 2003-2009 InfoEther, LLC; includes the required DARPA acknowledgement
+  Project: https://github.com/pmd/pmd
+  Included files: third-party/licenses/PMD-BSD.txt, third-party/notices/pmd-adaptation.md
