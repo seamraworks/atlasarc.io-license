@@ -1,12 +1,12 @@
 OPEN-SOURCE AND THIRD-PARTY NOTICES
 ===================================
 
-AtlasArc 1.0.0
+AtlasArc 1.0.1
 Copyright (c) 2026 Seamra Works. All rights reserved.
 
 This distribution includes the components listed below. Complete license and
 attribution payloads are included under third-party/. The machine-readable
-CycloneDX SBOM is included at sbom/AtlasArc-1.0.0.cdx.json.
+CycloneDX SBOM is included at sbom/AtlasArc-1.0.1.cdx.json.
 
 AtlasArc open-source runtime
 ----------------------------
